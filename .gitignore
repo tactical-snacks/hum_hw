@@ -1,0 +1,11 @@
+# Temporary & Backup Files
+/*-backups/
+.history/
+~*.lck
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*~
+_autosave-*
+*.tmp

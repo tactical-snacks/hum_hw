@@ -1,0 +1,124 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "7fa59d38-127e-4858-aa73-dba1e2337172",
+      "settings": {
+        "anti_alias": true,
+        "bg_style": "transparent",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 2400,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "${PROJECTNAME}_${REVISION}_topp.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "post_process": false,
+        "preset": "",
+        "procedural_textures": false,
+        "quality": "basic",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "top",
+        "use_board_stackup_colors": true,
+        "width": 2400,
+        "zoom": 1.0
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "90f34fbf-c976-4eb9-a9da-7cb825fd2ba6",
+      "settings": {
+        "anti_alias": true,
+        "bg_style": "transparent",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 2400,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "${PROJECTNAME}_${REVISION}_bott.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "post_process": false,
+        "preset": "",
+        "procedural_textures": false,
+        "quality": "basic",
+        "rotation_x": 180.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "top",
+        "use_board_stackup_colors": true,
+        "width": 2400,
+        "zoom": 1.0
+      },
+      "type": "pcb_render"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "99389fce-1ab8-42f6-b39e-f47219b3be5e",
+      "only": [],
+      "settings": {
+        "output_path": "images"
+      },
+      "type": "folder"
+    }
+  ]
+}
