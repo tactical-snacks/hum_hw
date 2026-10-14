@@ -986,31 +986,31 @@
           "group_by": false,
           "label": "ALT",
           "name": "ALT",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1038,6 +1038,12 @@
         },
         {
           "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Sim.Type",
           "name": "Sim.Type",
           "show": false
@@ -1045,7 +1051,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Footprint"
@@ -1130,7 +1136,7 @@
         "uuid": "3ce56f88-c583-47ce-a098-cbd585c70caf"
       }
     ],
-    "used_designators": "U1-4,#FLG1-2,R1-8,J1-4,BT1,D1-2,#PWR1-33,SW1,C1-14,Y1,Q1",
+    "used_designators": "R9",
     "variants": []
   },
   "sheets": [

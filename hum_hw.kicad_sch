@@ -4576,6 +4576,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 148.59) (xy 255.27 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36f2931-1fe9-45d5-a708-689236b7f7f6")
+	)
+	(wire
+		(pts
 			(xy 243.84 31.75) (xy 243.84 33.02)
 		)
 		(stroke
@@ -4905,14 +4915,14 @@
 		(uuid "ff681d3d-a6ac-4edd-bda1-4d2bc76e0318")
 	)
 	(label "PA10_RX1"
-		(at 255.27 148.59 180)
+		(at 237.49 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "047b0a83-7a8e-46fd-85e9-68f3b8ddb800")
+		(uuid "0429e91a-6281-43c3-8d16-2dfbd5dfa39b")
 	)
 	(label "~{PF2_RST}"
 		(at 135.89 157.48 0)
@@ -5283,6 +5293,16 @@
 			(justify left bottom)
 		)
 		(uuid "e2f61caa-44da-4af7-979c-5664be3e145e")
+	)
+	(label "_PA10_RX1"
+		(at 255.27 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eaaefb61-8279-4154-af3a-34584694c08f")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -7381,6 +7401,164 @@
 			(project "hum_hw"
 				(path "/3ce56f88-c583-47ce-a098-cbd585c70caf"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 240.03 148.59 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734a70e3-a197-4061-88fb-aeba0c032705")
+		(property "Reference" "R9"
+			(at 240.03 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 240.03 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" ""
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_PN" ""
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VENDOR" ""
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VENDOR_PN" ""
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VENDOR_DESC" ""
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd81f78b-860e-43e2-acbd-55899dbbfeee")
+		)
+		(pin "1"
+			(uuid "d2ac308d-6f5f-4a06-be97-ed6b22cd520b")
+		)
+		(instances
+			(project "hum_hw"
+				(path "/3ce56f88-c583-47ce-a098-cbd585c70caf"
+					(reference "R9")
 					(unit 1)
 				)
 			)
