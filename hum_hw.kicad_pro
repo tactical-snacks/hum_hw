@@ -61,12 +61,12 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.127,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_island_area": 9.9999993548,
+          "min_thickness": 0.2032,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -76,7 +76,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|80142000|127000000|1aa0db11-cc9a-4ca5-877c-3c0c1446fb8b|ba9ff89a-e526-49b9-b1f2-fcdef5823426",
+          ""
+        ],
+        [
+          "copper_edge_clearance|83532000|126580000|1aa0db11-cc9a-4ca5-877c-3c0c1446fb8b|203f5a87-4311-4c57-90c4-7918e06d3b1a",
+          ""
+        ],
+        [
+          "copper_edge_clearance|87210001|126580000|1aa0db11-cc9a-4ca5-877c-3c0c1446fb8b|d9cc7ac6-5487-4efd-a240-f5690da23c8e",
+          ""
+        ],
+        [
+          "copper_edge_clearance|88900001|127000000|1aa0db11-cc9a-4ca5-877c-3c0c1446fb8b|6012534e-c644-48d2-9017-dcf07858d337",
+          ""
+        ],
+        [
+          "copper_edge_clearance|91440000|127000000|1aa0db11-cc9a-4ca5-877c-3c0c1446fb8b|6abcb36a-66e6-45c8-abc6-41577461ad96",
+          ""
+        ],
+        [
+          "starved_thermal|90662182|124952183|7a014a68-8fc6-466c-a468-f90d7a23c0f9|6abcb36a-66e6-45c8-abc6-41577461ad96|In2.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|98425000|124759000|7a014a68-8fc6-466c-a468-f90d7a23c0f9|a5e5695f-27fd-4067-a651-9e12c0c0fa43|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -120,7 +149,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -986,31 +1015,31 @@
           "group_by": false,
           "label": "ALT",
           "name": "ALT",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1038,12 +1067,6 @@
         },
         {
           "group_by": false,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Sim.Type",
           "name": "Sim.Type",
           "show": false
@@ -1051,7 +1074,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Footprint"
@@ -1136,7 +1159,7 @@
         "uuid": "3ce56f88-c583-47ce-a098-cbd585c70caf"
       }
     ],
-    "used_designators": "R9",
+    "used_designators": "U1-4,#FLG1-2,R1-8,J1-4,BT1,D1-2,#PWR1-33,SW1,C1-14,Y1,Q1",
     "variants": []
   },
   "sheets": [
