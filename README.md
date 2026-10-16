@@ -32,4 +32,4 @@ Hour Utilization Monitor: a coin-cell data logger that timestamps machine run ti
 
 KiCad, STM32CubeMX / STM32CubeIDE.
 
-See [POWER_BUDGET.md](POWER_BUDGET.md).
+See [power_budget.md](power_budget.md).
