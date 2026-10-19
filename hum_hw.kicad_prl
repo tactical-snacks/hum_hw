@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 2,
+    "active_layer_preset": "Back Layers",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.4300000071525574
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -51,7 +51,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_82002223",
+    "visible_layers": "00000000_00000000_00000002_2200888c",
     "zone_display_mode": 0
   },
   "git": {
@@ -120,7 +120,9 @@
     "sort_ascending": true,
     "sorting_column": 0
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "render.kicad_jobset"
+  ],
   "project": {
     "files": []
   },
