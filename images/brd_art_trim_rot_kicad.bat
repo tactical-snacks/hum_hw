@@ -1,6 +1,6 @@
 @ECHO OFF
-ECHO Trim, Rotate, Rename PNG's using Imagemagick
-ECHO created 2023-01-14 by tactical snacks
+ECHO Trim, Rotate, Rename PNG's for KiCad using Imagemagick
+ECHO updated 2026-01-07 by tactical snacks
 ECHO.
 ECHO to use, name board top image file with ending of "topp.png" and
 ECHO name board bottom image file with ending of "bott.png". images
@@ -13,7 +13,7 @@ Setlocal enabledelayedexpansion
 :: trim and rotate, overwrite
 ECHO editing images ...
 forfiles /m *topp.png /c "cmd /c magick @file -trim @file"
-forfiles /m *bott.png /c "cmd /c magick @file -rotate 180 -trim @file"
+forfiles /m *bott.png /c "cmd /c magick @file -trim @file"
 ECHO edit complete
 ECHO.
 
