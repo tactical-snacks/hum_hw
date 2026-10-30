@@ -5,7 +5,10 @@
 	(uuid "3ce56f88-c583-47ce-a098-cbd585c70caf")
 	(paper "A4")
 	(title_block
-		(title "TITLE")
+		(title "HUM_HW")
+		(date "2026-10-14")
+		(rev "1.0.0")
+		(company "TACTICAL SNACKS")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
