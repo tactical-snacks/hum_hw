@@ -338,11 +338,11 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|266700|927100|cdf0ec1f-6205-4afb-afd9-6d1676dfef77|f40cd2aa-5f45-4fc9-acc8-f5775fcaa832|/3ce56f88-c583-47ce-a098-cbd585c70caf|/3ce56f88-c583-47ce-a098-cbd585c70caf|/3ce56f88-c583-47ce-a098-cbd585c70caf",
+        "pin_to_pin|266700|927100|cdf0ec1f-6205-4afb-afd9-6d1676dfef77|f40cd2aa-5f45-4fc9-acc8-f5775fcaa832|||",
         ""
       ],
       [
-        "pin_to_pin|279400|1054100|cdf0ec1f-6205-4afb-afd9-6d1676dfef77|c5e5a788-c806-4f09-9b4f-2e3eeb218e6d|/3ce56f88-c583-47ce-a098-cbd585c70caf|/3ce56f88-c583-47ce-a098-cbd585c70caf|/3ce56f88-c583-47ce-a098-cbd585c70caf",
+        "pin_to_pin|279400|1054100|cdf0ec1f-6205-4afb-afd9-6d1676dfef77|c5e5a788-c806-4f09-9b4f-2e3eeb218e6d|||",
         ""
       ]
     ],
